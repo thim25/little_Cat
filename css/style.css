@@ -1,6 +1,5 @@
 body {
-    display: flex;
-    justify-content: center;
+    display: block;
     text-align: center;
     box-sizing: border-box;
 
