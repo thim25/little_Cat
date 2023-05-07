@@ -1,0 +1,112 @@
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+.container {
+    width: 1300px;
+}
+
+.header {
+    background-color: red;
+    border-radius: 15px;
+    height: 80px;
+    margin: 3px;
+}
+
+h3 {
+    color: aliceblue;
+    margin: 0;
+}
+.sidebar1 {
+    width: 150px;
+    height: 400px;
+    background-color: green;
+    margin-left: 3px;
+    border-radius: 15px;
+    float: left;
+}
+
+.text {
+    width: 987px;
+    height: 400px;
+    background-color: yellow;
+    margin-left: 3px;
+    float: left;
+    border-radius: 15px;
+
+}
+
+.sidebar2 {
+    width: 150px;
+    height: 400px;
+    background-color: rgb(255, 6, 201);
+    border-radius: 15px;
+    margin-left: 3px;
+    margin-right:;
+    float: left;
+}
+
+.footer {
+    background-color: rgb(17, 0, 255);
+    border-radius: 15px;
+    width: 1294px;
+    margin: 3px;
+    height: 80px;
+    float: right;
+}
+
+@media(max-width:765px)
+{
+
+.header {
+    background-color: red;
+    border-radius: 15px;
+    width: 765px;
+    height: 100px;
+    margin: 3px;
+    }
+
+.sidebar1 {
+    width: 765px;
+    height: 80px;
+    background-color: green;
+    margin-left: 3px;
+    border-radius: 15px;
+    float: left;
+}
+
+.text {
+    width: 765px;
+    height: 400px;
+    background-color: yellow;
+    margin-left: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    float: left;
+    border-radius: 15px;
+}
+
+.sidebar2 {
+    width: 765px;
+    height: 80px;
+    background-color: rgb(255, 6, 201);
+    border-radius: 15px;
+    margin-left: 3px;
+    margin-right:;
+    float: left;
+}
+
+.footer {
+    background-color: rgb(17, 0, 255);
+    border-radius: 15px;
+    width: 765px;
+    height: 80px;
+    margin: 3px;
+    float: left;
+}
+
+}
